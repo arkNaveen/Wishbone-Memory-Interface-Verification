@@ -1,0 +1,299 @@
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun	25.03-s001: Started on Aug 24, 2026 at 07:55:34 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		$unit_0x67f934e9
+		tbench_top
+    .o_wb_data(i_intf.o_wb_data)
+                              |
+xmelab: *W,CUVMPW (./testbench.sv,47|30): port sizes differ in port connection(3/32) for the instance(tbench_top) .
+    if( !trans.randomize() ) $fatal("Gen:: trans randomization failed");
+                                                                     |
+xmelab: *W,STRINT (./generator.sv,26|69): String literal argument supplied to integer parameter.
+Loading snapshot worklib.tbench_top:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[ DRIVER ] ----- Reset Started -----
+[ DRIVER ] ----- Reset Ended   -----
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 1122171531,  Select Pin = 15 
+- Output Data = 8
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1669493139,  Select Pin = 15 
+- Output Data = 12
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 4217780781,  Select Pin = 15 
+- Output Data = 6
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 3,  Data - 3484323892,  Select Pin = 15 
+- Output Data = 2
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 1483993778,  Select Pin = 15 
+- Output Data = 5
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 2105393168,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1656999835,  Select Pin = 15 
+- Output Data = 14
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 167136928,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 1737378131,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- Read/Write_ = 1, Address = 1,  Data - 1949554886,  Select Pin = 15 
+- Output Data = 9
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 1122171531,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 1122171531,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------TEST PASSED --------
+Data : 1122171531 Addr : 2
+No Output Data present as no acknowledgement is set
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 1122171531,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1669493139,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1669493139,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------TEST PASSED --------
+Data : 1669493139 Addr : 4
+No Output Data present as no acknowledgement is set
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1669493139,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 4217780781,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 4217780781,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------TEST PASSED --------
+Data : 4217780781 Addr : 2
+No Output Data present as no acknowledgement is set
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 2,  Data - 4217780781,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 3,  Data - 3484323892,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 3,  Data - 3484323892,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------TEST PASSED --------
+Data : 3484323892 Addr : 3
+No Output Data present as no acknowledgement is set
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 3,  Data - 3484323892,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 1483993778,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 1483993778,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------TEST PASSED --------
+Data : 1483993778 Addr : 0
+No Output Data present as no acknowledgement is set
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 1483993778,  Select Pin = 15 
+- Output Data = 7
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 2105393168,  Select Pin = 15 
+- Output Data = 2
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 2105393168,  Select Pin = 15 
+- Output Data = 2
+-------------------------
+-------------TEST PASSED --------
+Data : 2105393168 Addr : 5
+Data Received
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 2105393168,  Select Pin = 15 
+- Output Data = 2
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1656999835,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1656999835,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------TEST PASSED --------
+Data : 1656999835 Addr : 4
+Data Received
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 4,  Data - 1656999835,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 167136928,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 167136928,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------TEST PASSED --------
+Data : 167136928 Addr : 0
+Data Received
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 0,  Data - 167136928,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 1737378131,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 1737378131,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------TEST PASSED --------
+Data : 1737378131 Addr : 5
+Data Received
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 5,  Data - 1737378131,  Select Pin = 15 
+- Output Data = 0
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- Read/Write_ = 1, Address = 1,  Data - 1949554886,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- Read/Write_ = 1, Address = 1,  Data - 1949554886,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+-------------TEST PASSED --------
+Data : 1949554886 Addr : 1
+Data Received
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- Read/Write_ = 1, Address = 1,  Data - 1949554886,  Select Pin = 15 
+- Output Data = 3
+-------------------------
+Simulation complete via $finish(1) at time 305 NS + 5
+./environment.sv:63     $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Aug 24, 2026 at 07:55:35 EDT  (total: 00:00:01)
